@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webform</title>
+</head>
+<body>
+<form action="mail.php" method="post">
+    <label for="afzender">afzender</label>
+    <input type="email" id="afzender" name="afzender" placeholder="afzender" required>
+    <br>
+    <label for="onderwerp">onderwerp</label>
+    <input type="text" id="onderwerp" name="onderwerp" required placeholder="onderwerp">
+    <br>
+    <label for="bericht">bericht</label>
+    <textarea name="bericht" id="bericht" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" value="verstuur" name="submit">
+</form>
+</body>
+</html>
